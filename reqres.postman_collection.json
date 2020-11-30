@@ -1,0 +1,80 @@
+{
+	"variables": [],
+	"info": {
+		"name": "reqres",
+		"_postman_id": "a9a024fe-4242-6e11-cf82-f157ecc43d21",
+		"description": "https://reqres.in/api/users\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PostReqRes",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetReqres",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PatchReq",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "deleteReqres",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "deleteReqres",
+			"request": {
+				"url": "https://reqres.in/api/users/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PatchReq",
+			"request": {
+				"url": "https://reqres.in/api/users",
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n            \"id\": 5,\n            \"email\": \"{{email}}\",\n            \"first_name\": {{name}},\n            \"last_name\": \"Bluth\",\n            \"avatar\": \"https://reqres.in/img/faces/1-image.jpg\"\n        }"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
